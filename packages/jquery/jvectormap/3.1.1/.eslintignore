@@ -1,0 +1,4 @@
+node_modules
+/jvectormap-next
+/jvectormap-content
+**/dist

@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app", "prettier", "prettier/react"],
+  "rules": {
+    "no-restricted-imports": ["error", { "patterns": ["lodash", "lodash/*"] }],
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off"
+  }
+}

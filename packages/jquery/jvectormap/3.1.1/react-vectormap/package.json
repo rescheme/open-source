@@ -1,0 +1,25 @@
+{
+  "name": "@stadline/react-vectormap",
+  "version": "0.1.9",
+  "license": "MIT",
+  "repository": "alex-pex/jvectormap",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "cd .. && cross-env BABEL_ENV=production bili --root-dir react-vectormap"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "jvectormap-content": "^0.1.0",
+    "jvectormap-next": "^3.1.1",
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": "16.*"
+  }
+}
